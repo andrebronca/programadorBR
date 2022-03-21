@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	
+	<!-- css interno -->
+	<style> 
+		p {
+			color: blue;
+		}
+	</style>
+
+	<link href="./assets/css/style.css" rel="stylesheet" /> <!-- css externo -->
+</head>
+<body>
+	<h1 id="titulo">Título 1</h1>
+	<h2><a href="#logo_html">Logo Html 5</a></h2>
+	<h3>Título 1</h3>
+	<h4>Título 1</h4>
+	<h5 style="color:#ff6347;">Título 1</h5> <!-- css inline -->
+	<h6>Título 1</h6>
+
+	<!-- 
+	algumas tags possuem sentido para os buscares, como se fossem mais importantes.
+	Ex. 
+	<b> só cria um negrito (formatação)
+	<strong> sinaliza que aquilo é mais importante dentro daquele grupo de texto. (semântica)
+	Várias tags possuem a mesma lógica: <i> <em>
+	Quando não for necessário dar uma iportância pode-se utilizar uma tag só de formatação.
+	-->
+	<p id="paragrafo"><b>Lorem Ipsum</b> is simply <strong>dummy text</strong> of the printing and <i>typesetting</i> <em>industry</em>.<br> <mark>Lorem Ipsum</mark> has been the industry's standard dummy <small>text</small> ever since the 1500s, when an <del>unknown</del> printer <s>took</s> a <ins>galley of type</ins> and <u>scrambled</u> it <sub>to</sub> make <sup>a</sup> type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+	<p>
+		It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	</p>
+
+	<p class="texto_verde">
+		It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	</p>
+
+	<a href="./sobre.html">Sobre</a>
+	<a href="./curriculo_desafio.html">Curriculo desafio</a>
+
+	<ul>
+		<li id="item">item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ul>
+
+	<ol>
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+	</ol>
+
+	<table>
+		<tr>
+			<th>Nome</th>
+			<th>Telefone</th>
+			<th>Email</th>
+		</tr>
+		<tr>
+			<td>Joao</td>
+			<td>45 9876-5432</td>
+			<td>joao.j@gmail.com
+		</tr>
+		<tr>
+			<td>Maria</td>
+			<td>45 9876-1234</td>
+			<td>maria.j@gmail.com
+		</tr>
+	</table>
+
+	<!-- unidades absolutas -->
+	<div id="cm"></div>
+	<div id="mm"></div>
+	<div id="in"></div>
+	<div id="px"></div>
+	<div id="pt"></div>
+	<div id="pc"></div>
+
+	Texto fora do container
+	<div class="container">
+		Texto no container
+		<div class="inside">
+			Texto no inside
+		</div>
+	</div>
+
+	<br>
+	<img id="logo_html" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="Logo da HTML 5" width="100"> <!-- um lado só mantém a proporção da outra medida -->
+	<br>
+	<a href="https://www.w3schools.com/html/default.asp" target="_blank">
+		<img src="./assets/img/logo_html5.png" alt="logo da HTML 5"  height="100">
+	</a>
+</body>
+</html>

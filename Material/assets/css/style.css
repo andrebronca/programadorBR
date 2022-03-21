@@ -1,0 +1,67 @@
+* {
+    padding: 2;
+    margin: 2;
+}
+
+#paragrafo {
+    color: #ff6347;
+}
+
+#titulo {
+    color: rgb(127, 255, 0);
+    background-image: url(../img/logo_html5.png);
+}
+
+.texto_verde {
+    color: darkgreen;
+    background-color: azure;
+}
+
+.img_fundo_html1 {
+    background-image: url(../img/logo_html5.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* unidades absolutas */
+#cm {
+    background-color: burlywood;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: cadetblue;
+    width: 1mm;
+    height: 1mm;
+}
+
+#in{
+    background-color: aqua;
+    width: 1in;
+    height: 1in;
+}
+
+#px {
+    background-color: #ff6347;
+    width: 10px;
+    height: 10px;
+}
+
+#pt {
+    background-color: #2e0a70;
+    width: 10pt;
+    height: 10pt; /*1pt é maior que 1px */
+}
+
+#pc {
+    background-color: #2e0a70;
+    width: 1pc;
+    height: 1pc; /* 1pc = 12pt */
+}
+
+/* fim unidades absolutas */
+
+.container {
+    font-size: 20px;
+}
